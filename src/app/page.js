@@ -4,6 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
+import Image from "next/image"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 
@@ -106,7 +107,7 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
-              <img
+              <Image
                 src="https://images.pexels.com/photos/5215023/pexels-photo-5215023.jpeg?auto=compress&cs=tinysrgb&w=800"
                 width="550"
                 height="750"
@@ -129,7 +130,7 @@ export default function Component() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/3845983/pexels-photo-3845983.jpeg?auto=compress&cs=tinysrgb&w=800"
                 width="550"
                 height="310"
@@ -259,6 +260,8 @@ export default function Component() {
             </div>
           </div>
         </section>
+
+        {/* ================= */}
         <section id="security" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
