@@ -108,10 +108,11 @@ export default function Component() {
                 </div>
               </div>
               <Image
-                src="https://images.pexels.com/photos/5215023/pexels-photo-5215023.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={"https://images.pexels.com/photos/5215023/pexels-photo-5215023.jpeg?auto=compress&cs=tinysrgb&w=800"}
                 width="550"
                 height="750"
                 alt="Photo by Antoni Shkraba"
+                placeholder="blur"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               />
             </div>
@@ -131,10 +132,11 @@ export default function Component() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="https://images.pexels.com/photos/3845983/pexels-photo-3845983.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={"https://images.pexels.com/photos/3845983/pexels-photo-3845983.jpeg?auto=compress&cs=tinysrgb&w=800"}
                 width="550"
                 height="310"
                 alt="Image"
+                placeholder="blur"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               />
               <div className="flex flex-col justify-center space-y-4">
@@ -238,7 +240,7 @@ export default function Component() {
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col items-start space-y-4">
                 <blockquote className="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl">
-                  &ldquo;The HealthTech app has been a game-changer for me. It's so convenient to book appointments,
+                  &ldquo;The HealthTech app has been a game-changer for me. It&apos;s so convenient to book appointments,
                   access my medical records, and communicate with my healthcare team all in one place.&rdquo;
                 </blockquote>
                 <div>
