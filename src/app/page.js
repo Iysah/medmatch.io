@@ -320,7 +320,7 @@ export default function Component() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">How do I book an appointment?</h3>
                       <p className="text-muted-foreground">
-                        You can book an appointment easily through our app by navigating to the "Book Appointment" section and selecting your preferred time and healthcare provider.
+                        You can book an appointment easily through our app by navigating to the &quot;Book Appointment&quot; section and selecting your preferred time and healthcare provider.
                       </p>
                     </div>
                   </li>
@@ -328,7 +328,7 @@ export default function Component() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">How can I access my medical records?</h3>
                       <p className="text-muted-foreground">
-                        Accessing your medical records is simple. Log into the app, go to the "Medical Records" section, and you will find all your history, test results, and prescriptions securely stored.
+                        Accessing your medical records is simple. Log into the app, go to the &quot;Medical Records&quot; section, and you will find all your history, test results, and prescriptions securely stored.
                       </p>
                     </div>
                   </li>
@@ -356,7 +356,7 @@ export default function Component() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">How do I reset my password?</h3>
                       <p className="text-muted-foreground">
-                        To reset your password, go to the login page and click on "Forgot Password". Follow the instructions to reset your password via email.
+                        To reset your password, go to the login page and click on &quot;Forgot Password&quot;. Follow the instructions to reset your password via email.
                       </p>
                     </div>
                   </li>
@@ -364,7 +364,7 @@ export default function Component() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">What if I need technical support?</h3>
                       <p className="text-muted-foreground">
-                        If you need technical support, you can reach out to our support team through the "Support" section in the app. We are here to help you 24/7.
+                        If you need technical support, you can reach out to our support team through the &quot;Support&quot; section in the app. We are here to help you 24/7.
                       </p>
                     </div>
                   </li>
