@@ -16,6 +16,11 @@ const fontBody = Inter({
   variable: '--font-body',
 })
 
+export const metadata = {
+  title: 'MedMatch',
+  description: 'Your one-stop platform for health information and doctor consultations. Find trusted medical professionals, book appointments, and access health resources.'
+}
+
 export default function Layout({ children }) {
   return (
     <html lang="en">
