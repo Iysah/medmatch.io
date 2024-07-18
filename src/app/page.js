@@ -452,8 +452,8 @@ export default function Component() {
         </div>
         <div className="mt-12 flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
           <p className="text-center text-sm md:text-left">© {new Date().getFullYear()} Medmatch.io. All rights reserved.</p>
-          <div className="flex space-x-4 flex-col md:flex-row lg:flex-row gap-4 ">
-            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-4 rounded-lg bg-slate-200 text-primary p-4 cursor-pointer">
+          <div className="flex space-x-4 flex-col md:flex-row lg:flex-row">
+            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-4 rounded-lg bg-slate-200 text-primary p-4 cursor-pointer mb-6 md:mb-0 lg:mb-0">
               <Image src={"https://www.logo.wine/a/logo/Google_Play/Google_Play-Icon-Logo.wine.svg"} width={50} height={30} alt="Download on Play Store" className="h-12" />
               <span>Download on Google Store</span>
             </a>
